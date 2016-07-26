@@ -8,6 +8,7 @@ gem 'puma', '~> 3.0'
 
 # Auth* related
 gem 'devise'
+gem 'devise-i18n'
 gem 'rolify'
 
 # Frontend related
