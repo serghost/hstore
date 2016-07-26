@@ -1,0 +1,18 @@
+- flash.each do |key, value|
+  - case key
+  - when "error"
+    .bg-danger.flash
+      .container
+        = value
+  - when "notice"
+    .bg-info.flash
+      .container
+        = value
+  - when "success"
+    .bg-success.flash
+      .container
+        = value
+  - when "alert"
+    .bg-warning.flash
+      .container
+        = value
