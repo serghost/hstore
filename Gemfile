@@ -6,12 +6,15 @@ gem 'rails-i18n', '~> 5.0.0'
 
 gem 'puma', '~> 3.0'
 
+# Auth* related
+gem 'devise'
+gem 'rolify'
 
 # Frontend related
 gem 'sassc-rails' # Using C implementation
 gem 'autoprefixer-rails'
 gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
+# gem 'jquery-rails' # using bower
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'haml'
